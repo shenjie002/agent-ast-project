@@ -1,0 +1,19 @@
+{
+  "name": "agent-ast-project",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.18.0",
+  "scripts": {
+    "build": "pnpm --filter @agent-ast/ast-plugin build && pnpm --filter @agent-ast/runtime-sdk build && pnpm --filter @agent-ast/demo-app build",
+    "check": "pnpm -r --filter './packages/*' check",
+    "test": "pnpm -r --filter './packages/*' test",
+    "demo:dev": "pnpm --filter @agent-ast/demo-app dev",
+    "verify:external": "node scripts/verify-external-project.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}

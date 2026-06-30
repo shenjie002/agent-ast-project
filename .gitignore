@@ -1,0 +1,23 @@
+node_modules/
+**/node_modules/
+
+# Build outputs
+packages/*/dist/
+packages/demo-app/dist/
+out/
+coverage/
+
+# Generated local indexes
+/generated/
+agent-ast-generated/
+.agent-ast/
+
+# Tool caches
+**/.vite/
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
