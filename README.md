@@ -189,6 +189,18 @@ Button, Input, Input.TextArea, Select, Tabs, Upload
 
 ## Runtime SDK
 
+For any Agent integration, read the full protocol first:
+
+```text
+docs/agent-protocol.md
+```
+
+A machine-readable summary is also available:
+
+```text
+docs/agent-protocol.schema.json
+```
+
 `runtime-sdk` 由 `@agent-ast/runtime-sdk` 导出。
 
 核心 API：
@@ -508,6 +520,13 @@ Button, Input, Input.TextArea, Select, Tabs, Upload
 ```
 
 ## Runtime SDK
+
+For any Agent integration, read:
+
+```text
+docs/agent-protocol.md
+docs/agent-protocol.schema.json
+```
 
 `runtime-sdk` is exported from `@agent-ast/runtime-sdk`.
 

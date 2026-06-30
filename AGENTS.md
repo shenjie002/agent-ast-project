@@ -4,6 +4,13 @@ This repository builds a white-box UI automation toolkit for first-party fronten
 
 ## Mental Model
 
+Before implementing Agent-facing behavior, read:
+
+```text
+docs/agent-protocol.md
+docs/agent-protocol.schema.json
+```
+
 The core loop is:
 
 ```text
